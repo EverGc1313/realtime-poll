@@ -1,0 +1,8 @@
+version: 3
+endpoint: https://relevant-bison-78.hasura.app
+metadata_directory: metadata
+migrations_directory: migration
+seeds_directory: seeds
+actions:
+  kind: synchronous
+  handler_webhook_baseurl: http://localhost:3000
